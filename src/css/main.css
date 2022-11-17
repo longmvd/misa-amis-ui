@@ -1,0 +1,196 @@
+@import url(../assets/icons/icofont/icofont.min.css);
+@import url(../assets/icons/fontawesome-free-6.2.0-web/css/all.min.css);
+@import url(../assets/icons/fontawesome-free-6.2.0-web/css/all.min.css);
+@import url(./layout/grid.css);
+@import url(./components/tooltip.css);
+@import url(./components/header.css);
+@import url(./components/sidebar.css);
+@import url(./components/button.css);
+@import url(./components/table.css);
+@import url(./components/popup.css);
+@import url(./components/icon.css);
+@import url(./components/input.css);
+@import url(./components/combobox.css);
+@import url(./components/dialog.css);
+@import url(./layout/style.css);
+
+
+:root {
+    --white-color: #FFFFFF;
+    --overlay-color: #00000075;
+    --black-color: #000;
+    --text-color: #333;
+    --header-color: #555;
+    --header-height: 56px;
+    --hover-white-color: #F6F6F6;
+    --border-color: #E6E6E6;
+    --primary-color: #50B83C;
+    --error-color: #E61D1D;
+    --red-500: #E60000;
+    --red-300: #F06666;
+    --table-h-bgcolor: #F5F5F5;
+
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* font-size: 62.5%;
+    line-height: 1.8rem; */
+    font-family: nunito Regular Fonts;
+    box-sizing: border-box;
+}
+
+body,
+button,
+input {
+    margin: 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+h1 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 2px;
+}
+
+/* body {
+    font-family: nunito Regular Fonts;
+    font-size: 13px;
+} */
+
+@font-face {
+    font-family: nunito Regular Fonts;
+    src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+.el-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.el-wrapper.error .input {
+    border-color: var(--error-color);
+}
+
+.el-wrapper.error:hover .err-message {
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+}
+
+.el__label {
+    margin-top: 16px;
+}
+
+.title-require {
+    color: var(--error-color)
+}
+
+.flex {
+    display: flex;
+}
+
+.relative {
+    position: relative;
+}
+
+.bg-none {
+    background: none;
+}
+
+.mw-120 {
+    min-width: 120px;
+}
+
+.mw-136 {
+    min-width: 136px;
+}
+
+.mw-162 {
+    min-width: 160px;
+}
+
+.mw-225 {
+    min-width: 225px;
+}
+
+.mw-250 {
+    min-width: 250px;
+}
+
+.mgr-8 {
+    margin-right: 8px;
+}
+
+.el--center {
+    align-items: center;
+}
+
+.w-1\/4 {
+    width: 25%;
+}
+
+.w-2\/5 {
+    width: 40%;
+}
+
+.w-1\/2 {
+    width: 50%;
+}
+
+.w-3\/5 {
+    width: 60%;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.mgt-0 {
+    margin-top: 0;
+}
+
+.display-none {
+    display: none;
+}
+
+.cs-pointer {
+    cursor: pointer;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.scroller.s::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.scroller.m::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.scroller::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+    background-color: #b8bcc3;
+}
+
+.fsn{
+    font-style: normal;
+}
+.fw-600{
+    font-weight: 600;
+}

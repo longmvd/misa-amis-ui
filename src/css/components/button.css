@@ -1,0 +1,50 @@
+.btn {
+    height: 36px;
+    min-width: 80px;
+    border-radius: 4px;
+    padding: 0 16px;
+    border: unset;
+    cursor: pointer;
+}
+
+.btn--pri{
+    background-color: #50B83C;
+    color: #FFFFFF;
+}
+.btn--add{
+    display: flex;
+    align-items: center;
+}
+.add-icon{
+    font-size: 20px;
+    margin-left: -4px;
+    margin-right: 4px;
+}
+
+.btn--square{
+    min-width: 36px;
+    padding: 6px;
+
+}
+
+.logo-button{
+    margin: 0 10px;
+}
+
+.btn--extra{
+    color: #1F1F1F;
+    background-color: #FFFFFF;
+    border:1px solid #E6E6E6;
+}
+
+.btn--disabled{
+    opacity: 56%;
+}
+
+.btn--pri:hover{
+    background: #73C663;
+}
+
+.btn--extra:hover{
+    background-color: #EEF8EC;
+}

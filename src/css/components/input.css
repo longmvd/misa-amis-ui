@@ -1,0 +1,40 @@
+.input {
+    height: 36px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    outline: unset;
+    border-radius: 4px;
+    padding: 0 12px;
+    width: 100%;
+}
+
+.search-icon {
+    /* background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -1041px -89px; */
+    background: url('../../assets/icons/stylesheet/search.svg') no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 16px;
+    right: 8px;
+}
+
+.search-icon.left {
+    left: 8px;
+}
+
+.input:focus {
+    border-color: var(--primary-color);
+}
+
+.input--error {
+    border-color: var(--error-color);
+}
+
+.input:hover{
+    background-color: var(--hover-white-color);
+}
+
+.input-20{
+    width: 20px;
+    height: 20px;
+}

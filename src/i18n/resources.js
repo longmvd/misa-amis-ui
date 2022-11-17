@@ -1,0 +1,28 @@
+export const EMPLOYEE_DETAILS = {
+    ADD_MODE_TITLE: 'Thêm mới nhân viên',
+    EDIT_MODE_TITLE: 'Sửa nhân viên',
+    EmployeeID: '',
+    EmployeeCode: 'Mã',
+    EmployeeName: 'Tên',
+    DateOfBirth: 'Ngày sinh',
+    Gender: 'Giới tính',
+    Address: 'Địa chỉ',
+    Email: 'Email',
+    PhoneNumber: 'ĐT di động',
+    TelephoneNumber: 'ĐT cố định',
+    BankAccountNumber: 'Tài khoản ngân hàng',
+    BankName: 'Tên ngân hàng',
+    BankBranchName: 'Chi nhánh',
+    BankProvinceName: '',
+    IdentityNumber: 'Số CMND',
+    IdentityDate: 'Ngày cấp',
+    IdentityPlace: 'Nơi cấp',
+    DepartmentName: 'Đơn vị',
+    Salary: '',
+    JoinDate: '',
+    WorkStatus: '',
+    DepartmentID: '',
+    JobPositionID: '',
+}
+
+

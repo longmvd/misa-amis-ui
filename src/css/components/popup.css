@@ -1,0 +1,81 @@
+.employee-popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--overlay-color);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    /* display: none; */
+}
+
+.popup__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px 0 24px;
+}
+.popup__body{
+    padding:24px;
+}
+.popup__footer{
+    display: flex;
+    padding: 12px 24px;
+    background-color: var(--table-h-bgcolor);
+    border-top: 1px solid var(--border-color);
+    justify-content: space-between;
+}
+.popup-title{
+    display: flex;
+    align-items: center;
+}
+.popup-title h1{
+    margin: 0;
+}
+
+.popup-cb-wrapper{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.popup-title-label{
+    padding-left: 8px;
+}
+
+.popup-wrapper{
+    background-color: var(--white-color);
+    min-width: 840px;
+}
+
+.popup-top{
+    display: flex;
+    justify-content: space-between;
+}
+.popup-left{
+    padding-right:24px;
+}
+.popup-right{
+    
+}
+.popup-bot{
+    /* padding-top: 24px; */
+    padding-top: 16px;
+}
+
+.popup-close{
+    display: flex;
+}
+
+.gender{
+    display: flex;
+    height: 32px;
+    margin: 8px 0;
+}
+
+.gender__label span{
+    margin-left: 8px;
+    margin-right: 16px;
+}
